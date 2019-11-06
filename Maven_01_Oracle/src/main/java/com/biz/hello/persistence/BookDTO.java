@@ -1,0 +1,13 @@
+package com.biz.hello.persistence;
+
+import lombok.ToString;
+
+@ToString
+public class BookDTO {
+
+	private String b_code; //	nvarchar2(5 char)
+	private String b_name; //	nvarchar2(50 char)
+	private String b_comp; //	nvarchar2(50 char)
+	private String b_writer; //	nvarchar2(20 char)
+	private int b_price; //	number
+}
